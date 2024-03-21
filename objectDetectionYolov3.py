@@ -28,7 +28,7 @@ class Yolo():
         # get model configuration and weight
 
         model_configuration = 'Yolov3/yolov3_custom.cfg'
-        model_weight = 'Yolov3/yolov3_custom_24_last.weights'
+        model_weight = 'Yolov3/yolov3_24batch_datasetClean.weights'
 
         # define classes
         self.classes = None
